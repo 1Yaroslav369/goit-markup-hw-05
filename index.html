@@ -681,7 +681,11 @@
         <form class="modal-form">
           <div class="modal-field">
             <label for="user-name" class="modal-label">Name</label>
-            
+            <button type="button" class="close-btn">
+              <svg class="close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+          </button>
             <div class="input-wrap">
               <input
                 type="text"
@@ -694,11 +698,6 @@
               </svg>
             </div>
           </div>
-          <button type="submit" class="close-btn">
-            <svg class="close-icon" width="8" height="8">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-        </button>
           <div class="modal-field">
             <label for="user-phone" class="modal-label">Phone</label>
             <div class="input-wrap">
@@ -752,8 +751,8 @@
               >I accept the terms and conditions of the&nbsp;
               <a href="" class="modal-check-link">Privacy Policy</a></label
             >
+            <button type="submit" class="modal-btn">Send</button>
           </div>
-          <button type="submit" class="modal-btn">Send</button>
         </form>
       </div>
     </div>
